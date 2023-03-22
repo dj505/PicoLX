@@ -1,0 +1,8 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "MX_Hotswap")(type "KiCad")(uri "D:/PicoLX/MX_V2/MX_Hotswap.pretty")(options "")(descr ""))
+  (lib (name "RP2040_minimal")(type "KiCad")(uri "C:/Users/jayde/Documents/KiCadFootprints/RP2040/Minimal/RP2040_minimal/RP2040_minimal.pretty")(options "")(descr ""))
+  (lib (name "marbastlib-various")(type "KiCad")(uri "D:/PicoLX/marbastlib/marbastlib-various.pretty")(options "")(descr ""))
+  (lib (name "marbastlib-mx")(type "KiCad")(uri "D:/PicoLX/marbastlib/marbastlib-mx.pretty")(options "")(descr ""))
+  (lib (name "Misc Footprints")(type "KiCad")(uri "D:/PicoLX/Misc Footprints/TS-1187A.pretty")(options "")(descr ""))
+)
