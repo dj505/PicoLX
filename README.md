@@ -16,3 +16,4 @@ Just the weird stuff I need to remember specific part numbers for until I can fi
 * [USB C Port](https://jlcpcb.com/partdetail/gswitch-GT_USB7010ASV/C2988369)
 * [Crystal](https://jlcpcb.com/partdetail/YangxingTech-X322512MSB4SI/C9002)
 * [Button](https://jlcpcb.com/partdetail/XkbConnectivity-TS_1187A_B_AB/C318884)
+* [Logic level shifter](https://jlcpcb.com/partdetail/TexasInstruments-SN74LV1T34DBVR/C100024)

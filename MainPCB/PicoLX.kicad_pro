@@ -56,7 +56,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "hole_clearance|187486804|66910536|b13e81aa-e3c2-4e62-9580-8c1d2310fae8|480a9cdf-de6f-4595-8221-36af8d2d97c4",
+        "hole_clearance|187486804|66910536|b13e81aa-e3c2-4e62-9580-8c1d2310fae8|dfcb4498-a89b-40dd-a15d-f4c25470c7a0",
+        "hole_clearance|193286804|66910536|e89021c9-2f78-4531-9f10-14a434cd76ff|843e758a-73b2-4d65-aaa2-f281e2000017",
+        "hole_clearance|193286804|66910536|e89021c9-2f78-4531-9f10-14a434cd76ff|f83f26c9-c1d5-4279-b134-1728db857542"
+      ],
       "meta": {
         "version": 2
       },
@@ -73,7 +78,7 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
-        "footprint_type_mismatch": "ignore",
+        "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "invalid_outline": "error",
@@ -88,9 +93,9 @@
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
         "net_conflict": "warning",
-        "npth_inside_courtyard": "ignore",
+        "npth_inside_courtyard": "error",
         "padstack": "warning",
-        "pth_inside_courtyard": "ignore",
+        "pth_inside_courtyard": "error",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
@@ -426,7 +431,7 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.254,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
@@ -443,7 +448,7 @@
         "name": "Beeg Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
+        "track_width": 0.5,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
