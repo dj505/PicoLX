@@ -39,12 +39,13 @@ Below is a list of materials required for 1 controller.
 | 1uF Capacitor          | 0402      | 2   | C52923   | N/A  | Y                     |
 | 27pF Capacitor         | 0402      | 2   | C1557    | N/A  | Y                     |
 | 100uF Capacitor        | 0804      | 19  | C15008   | N/A  | Y                     |
+| 10uF Capacitor         | 0402      | 2   | C15525   | N/A  | Y                     |
 | USB C Receptor         | N/A       | 1   | C2988369 | N/A  | Y                     |
 | SK6812MINI-E LED\*     | N/A       | 19  | N/A      | N/A  | N                     |
 | MX-style keyswitch\*   | N/A       | 10  | N/A      | N/A  | N                     |
 | Kailh hotswap socket\* | N/A       | 10  | N/A      | N/A  | N                     |
-| 1k Ohm Resistor        | 0402      | 2   | C106235  | N/A  | Y                     |
-| 27 Ohm Resistor        | 0402      | 2   | C2909343 | N/A  | Y                     |
+| 1k Ohm Resistor        | 0402      | 2   | C11702   | N/A  | Y                     |
+| 27 Ohm Resistor        | 0402      | 2   | C25100   | N/A  | Y                     |
 | 5.1k Ohm Reistor       | 0402      | 2   | C25905   | N/A  | Y                     |
 | TS-1187A Pushbutton    | N/A       | 1   | C318884  | N/A  | Y                     |
 | 90 Degree Pushbutton   | N/A       | 2   | C221887  | N/A  | N                     |
