@@ -38,7 +38,7 @@ Below is a list of materials required for 1 controller.
 | 100nF Capacitor        | 0402      | 10  | C1525    | N/A  | Y                     |
 | 1uF Capacitor          | 0402      | 2   | C52923   | N/A  | Y                     |
 | 27pF Capacitor         | 0402      | 2   | C1557    | N/A  | Y                     |
-| 100uF Capacitor        | 0804      | 19  | C15008   | N/A  | Y                     |
+| 100uF Capacitor        | 0805      | 19  | C15008   | N/A  | Y                     |
 | 10uF Capacitor         | 0402      | 2   | C15525   | N/A  | Y                     |
 | USB C Receptor         | N/A       | 1   | C2988369 | N/A  | Y                     |
 | SK6812MINI-E LED\*     | N/A       | 19  | N/A      | N/A  | N                     |
