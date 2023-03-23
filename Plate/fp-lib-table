@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "PicoLX Graphics")(type "KiCad")(uri "D:/PicoLX/Misc Footprints/PicoLX Graphics.pretty")(options "")(descr ""))
+)
