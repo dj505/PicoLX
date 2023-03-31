@@ -1,6 +1,7 @@
 # PicoLX
 The cooler PicoFX :sunglasses:  
-This README will be updated over time as the project is worked on and tested.
+This README will be updated over time as the project is worked on and tested.  
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Y8Y8106HR)
 
 # Foreword
 ### This project assumes you're not a first time builder! If you are, consider building a [PicoFX](https://github.com/dj505/PicoFX) instead.
@@ -96,7 +97,7 @@ The gerber files for both PCBs are available in this repository, however the BOM
 1. Upload the gerber file for the plate to your manufacturer of choice.
     * This part does not require PCB assembly services, only PCB manufacturing.
 2. Select your desired soldermask colour.
-3. Select your desired finish. There will be exposed finish as an part of the design, so I would recommend selecting the __**lead-free**__ **HASL finish** or the **Immersion gold (ENIG)** finish.
+3. Select your desired finish. There will be exposed finish as an part of the design, so I would recommend selecting the __**lead-free**__ **HASL finish** or the **Immersion gold (ENIG)** finish. I would not recommend using a finish that contains lead for a plate with exposed metal!
 4. Add the order to your cart.
 
 ### Once both parts are in your cart
@@ -106,10 +107,12 @@ You're ready to place the order! Ensure all of the information is correct, and b
 If you used a PCB assembly service for the majority of the parts, the remainder is very straightforward. If not, I'm going to assume you own a hot air soldering station and have enough of an idea of what you're doing that you don't need a step by step guide.
 1. Match the LEDs on one side with their solder pads, ensuring the leg with the notch matches the marking on the silkscreen. Flip the board and repeat for the remaining LEDs.
 2. Slot the hotswap sockets in place and solder the tabs to the rectangular pads.
-3. Snap a few of your keyboard switches into the plate. Not all of them yet - just 2 or 3 in opposing corners are a good start. Use these to align the main PCB and insert the switches into the sockets.
-4. Insert the remainder of the switches and make sure everything is properly aligned. You can always fix this later as the switches aren't permanently soldered in.
-5. Slot the assembly into the 3D printed case and screw together.
-6. Attach some rubber non-slip feet or a non-slip pad that's been cut to size to the bottom of the case.
+3. Insert and solder the test and service buttons. Ensure these are pointing out from the back of the PCB so as to not collide with the top plate.
+4. Snap a few of your keyboard switches into the plate. Not all of them yet - just 2 or 3 in opposing corners are a good start. Use these to align the main PCB and insert the switches into the sockets.
+5. Insert the remainder of the switches and make sure everything is properly aligned. You can always fix this later as the switches aren't permanently soldered in.
+6. Slot the assembly into the 3D printed case and screw together.
+7. Attach some rubber non-slip feet or a non-slip pad that's been cut to size to the bottom of the case.
+8. Flash the firmware and play!
 
 # Firmware
 // TODO
