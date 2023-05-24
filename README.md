@@ -8,6 +8,19 @@ This README will be updated over time as the project is worked on and tested.
 ### This project assumes you're not a first time builder! If you are, consider building a [PicoFX](https://github.com/dj505/PicoFX) instead.
 If you're comfortable with using PCB assembly services and potentially doing some fine soldering, or have a friend who can do the above, consider going that route instead.  
 
+# FAQ
+**Q:** What games can I use this with?  
+A: Any simulators that work with a keyboard or controller, and any games that will accept PIUIO input. This includes official software. **Please do not use this with currently supported online games.** At the time of writing, this includes Pump it Up: XX, and soon, Pump it Up: Phoenix.
+
+**Q:** Can I buy a pre-assembled and ready-to-use PicoLX from you?  
+A: Not yet. Maybe in the future! Never hurts to ask, I occasionally have spare units sitting around.
+
+**Q:** How do I change between keyboard, controller, and PIUIO mode?  
+A: Controller and keyboard mode are both part of one firmware, and PIUIO mode requires its own firmware. To toggle between keyboard and controller mode, hold the inner button on the right hand side of the PicoLX while plugging it in. The PIUIO firmware is set to PIUIO mode at all times.
+
+**Q:** Can I use the PIUIO firmware for simulators? Will lights work?
+A: Yes. Depending on your OS, you will either need IO2Key or PIUIO2VJoy (Windows), or a [PIUIO kernel driver](https://github.com/DinsFire64/piuio) (Linux). Lighting capabilities vary between simulators and would be too much info to fit in this simple FAQ.
+
 # Changes
 ## Improvements
 The PicoLX has a few significant upgrades over the PicoFX, such as:
@@ -66,7 +79,29 @@ Below is a list of materials required for 1 controller.
 * There are a few components not listed that typically aren't needed. If you would like to include these for peace of mind, you can find them by cloning the project and viewing the list of symbols in the schematic.
 
 # Ordering PCBs
-The gerber files for both PCBs are available in this repository, however the BOM/pick and place files for PCB assembly services are not. You'll have to generate these yourself if you plan to use them. Here's how:
+All of the necessary files for assembly are included in this repo's [Releases tab.](https://github.com/dj505/PicoLX/Releases). The following instructions can be used to export your own gerbers and other assembly files if the release is out of date, or if you wish to make changes.
+
+**I highly, *highly* recommend using a PCB assembly service for this build.** If you aren't sure how to source parts yourself or want to make things a bit easier, check out [PCBWay's assembly service!](https://www.pcbway.com/pcb-assembly.html) They were kind enough to reach out and sponsor this project, and I've had great results from using their services. They'll do all the part sourcing on your behalf as part of their turn-key assembly option.
+
+## Using PCBWay's turn-key service with provided BOM/placement files
+Before starting, head over to the [Releases tab.](https://github.com/dj505/PicoLX/Releases) and download the "Fabrication Files" package.
+1. Head over to the [quick-order PCB page](https://www.pcbway.com/QuickOrderOnline.aspx)
+2. Upload the gerber file and select your options.
+   * Keep most settings set to their default values, but change the solder mask colour to your preferred option (I recommend black for the main PCB and white for the plate), and I recommend changing the surface finish to "HASL lead free", though this isn't strictly necessary.
+3. **If you're following these steps for the plate,** stop here and save to cart. **If you're following these steps for the main PCB,** continue on.
+4. Tick the "Assembly service" box and fill in the options. Anything that doesn't have a red * can be left blank.
+   * Select the "Turnkey" option
+   * Board type should be "Single pieces"
+   * Assembly side should be "Bottom side"
+   * Quantity should match the number of PCBs you're ordering. Minimum number is 5.
+   * "Contains Sensitive components/parts" needs to be changed to "Yes" **IF** you are getting the LEDs pre-assembled. If you solder the LEDs by hand, this can be set to **"No".**
+   * "Do you accept alternatives/substitutes made in China?" can be toggled to "Yes" to make costs more manageable. I have not had any issues with the boards I've received with this option.
+5. Click "Add to cart" and proceed to the "Under Review" page on your profile.
+6. Beside the order, you will see a button beside the assembly order that says "Add File". Click it and upload the BOM and component placement files.
+7. Save the uploaded files and wait for the order to be reviewed. You should be good to go! This process may take up to a couple days for assembly orders. You may be contacted by customer service with questions about certain parts. If this is the case, and you get stuck, feel free to shoot me a message and I'll give you a hand when I'm available!
+
+## Exporting assembly files yourself
+This process is a bit more advanced, but allows you to make changes to the board(s) or use a different service if you have a preferred one.
 
 ### Main PCB
 1. Install [KiCAD](https://www.kicad.org/)
@@ -116,4 +151,7 @@ If you used a PCB assembly service for the majority of the parts, the remainder 
 8. Flash the firmware and play!
 
 # Firmware
-// TODO
+The firmwares can be found bundled on the [Releases tab.](https://github.com/dj505/PicoLX/Releases) These are pre-compiled builds of existing firmwares, configured for the PicoLX. The original firmwares are available at:
+* https://github.com/dj505/piuio-picolx
+   * Forked from https://github.com/48productions/piuio-pico
+* https://github.com/speedypotato/Pico-Game-Controller
