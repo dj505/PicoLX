@@ -84,7 +84,7 @@ All of the necessary files for assembly are included in this repo's [Releases ta
 **I highly, *highly* recommend using a PCB assembly service for this build.** If you aren't sure how to source parts yourself or want to make things a bit easier, check out [PCBWay's assembly service!](https://www.pcbway.com/pcb-assembly.html) They were kind enough to reach out and sponsor this project, and I've had great results from using their services. They'll do all the part sourcing on your behalf as part of their turn-key assembly option.
 
 ## Using PCBWay's turn-key service with provided BOM/placement files
-Before starting, head over to the [Releases tab.](https://github.com/dj505/PicoLX/Releases) and download the "Fabrication Files" package.
+Before starting, head over to the [Releases tab](https://github.com/dj505/PicoLX/Releases) and download the "Fabrication Files" package.
 1. Head over to the [quick-order PCB page](https://www.pcbway.com/QuickOrderOnline.aspx)
 2. Upload the gerber file and select your options.
    * Keep most settings set to their default values, but change the solder mask colour to your preferred option (I recommend black for the main PCB and white for the plate), and I recommend changing the surface finish to "HASL lead free", though this isn't strictly necessary.
