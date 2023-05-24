@@ -79,7 +79,7 @@ Below is a list of materials required for 1 controller.
 * There are a few components not listed that typically aren't needed. If you would like to include these for peace of mind, you can find them by cloning the project and viewing the list of symbols in the schematic.
 
 # Ordering PCBs
-All of the necessary files for assembly are included in this repo's [Releases tab.](https://github.com/dj505/PicoLX/Releases). The following instructions can be used to export your own gerbers and other assembly files if the release is out of date, or if you wish to make changes.
+All of the necessary files for assembly are included in this repo's [Releases tab](https://github.com/dj505/PicoLX/Releases). The following instructions can be used to export your own gerbers and other assembly files if the release is out of date, or if you wish to make changes.
 
 **I highly, *highly* recommend using a PCB assembly service for this build.** If you aren't sure how to source parts yourself or want to make things a bit easier, check out [PCBWay's assembly service!](https://www.pcbway.com/pcb-assembly.html) They were kind enough to reach out and sponsor this project, and I've had great results from using their services. They'll do all the part sourcing on your behalf as part of their turn-key assembly option.
 
