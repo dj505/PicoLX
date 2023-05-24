@@ -18,7 +18,7 @@ A: Not yet. Maybe in the future! Never hurts to ask, I occasionally have spare u
 **Q:** How do I change between keyboard, controller, and PIUIO mode?  
 A: Controller and keyboard mode are both part of one firmware, and PIUIO mode requires its own firmware. To toggle between keyboard and controller mode, hold the inner button on the right hand side of the PicoLX while plugging it in. The PIUIO firmware is set to PIUIO mode at all times.
 
-**Q:** Can I use the PIUIO firmware for simulators? Will lights work?
+**Q:** Can I use the PIUIO firmware for simulators? Will lights work?  
 A: Yes. Depending on your OS, you will either need IO2Key or PIUIO2VJoy (Windows), or a [PIUIO kernel driver](https://github.com/DinsFire64/piuio) (Linux). Lighting capabilities vary between simulators and would be too much info to fit in this simple FAQ.
 
 # Changes
