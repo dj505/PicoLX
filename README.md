@@ -10,7 +10,7 @@ If you're comfortable with using PCB assembly services and potentially doing som
 
 # FAQ
 **Q:** What games can I use this with?  
-A: Any simulators that work with a keyboard or controller, and any games that will accept PIUIO input. This includes official software. **Please do not use this with currently supported online games.** At the time of writing, this includes Pump it Up: XX, and soon, Pump it Up: Phoenix.
+A: Any simulators that work with a keyboard or controller, and any games that will accept PIUIO input. This includes official software. **Please do not use this with currently supported online games.** At the time of writing, this includes Pump it Up: XX and Pump it Up: Phoenix. **Hand controller play *can* be detected by Andamiro and, in all likelihood, will get your user account and/or the copy of the game restricted.**
 
 **Q:** Can I buy a pre-assembled and ready-to-use PicoLX from you?  
 A: Not yet. Maybe in the future! Never hurts to ask, I occasionally have spare units sitting around.
